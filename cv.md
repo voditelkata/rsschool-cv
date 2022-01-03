@@ -10,3 +10,4 @@
 1. None
 1. 2000-2004 HSCT
    2004-2007 BSUIR
+1. English level **B1**
