@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Artsiom Kastsiuchyk</h1>
+            <p>Junior Frontend Developer</p>
+            <img src="./assets/avatar.png" alt="Avatar" width="200" height="200">
+        </header>
+        <main class="main">
+            <div class="left-column">
+                <div class="left-column__about">
+                    <h2>About me</h2>
+                    <p>I am currently working as a telecommunications engineer, specializing in television. Once again I
+                        am trying to finish the course of rschool. The lack of time and knowledge has always become a
+                        barrier. But every time I move on). Constant dropping wears away a stone.</p>
+                    <h2>Education</h2>
+                    <ul class="left-column__list">
+                        <li>Belarusian State Academy of Telecommunications</li>
+                        <li><span class="year-education">Years: 2001 - 2005</span></li>
+                        <li>Specialisation: radiocommunication, television and radio broadcast systems</li>
+                        <li>Belarusian State University of Informatics and Radioelectronics</li>
+                        <li><span class="year-education">Years: 2005 - 2008</span></li>
+                        <li>Specialisation: radiocommunication, television and radio broadcast systems</li>
+                    </ul>
+                </div>
+                <div class="left-column__code">
+                    <h2>Code example</h2>
+                    <p>Write a function, nicknameGenerator that takes a string name as an argument and returns the first
+                        3 or 4 letters as a nickname.
+                        If the 3rd letter is a consonant, return the first 3 letters. If the 3rd letter is a vowel,
+                        return the first 4 letters. If the string is less than 4 characters, return "Error: Name too
+                        short".
+                    </p>
+                    <pre>
+                        <code>
+                        function nicknameGenerator(name){
+                            return name.length &lt; 4 ? "Error: Name too short" :
+                             /^..[^aeiou]/.test(name) ? name.substring(0, 3) :
+                             name.substring(0, 4)
+                           }
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="right-column__skills">
+                    <h2>Skills</h2>
+                    <p>sociability, stress resistance, persistence, desire to learn</p>
+                </div>
+                <div class="right-column__contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>
+                            <a href="tel:+375295610604" class="text">
+                                <img src="./assets/icons/phone.svg" alt="Phine icon" width="30" height="30">
+                                <p>+375(29)5610604</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:voditelkatka@gmail.com" class="text">
+                                <img src="./assets/icons/email.svg" alt="Email icon" width="30" height="30">
+                                <p>voditelkatka@gmail.com</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tg://resolve?domain=kakaoporoshok" class="text">
+                                <img src="./assets/icons/telegram.svg" alt="Telegram icon" width="30" height="30">
+                                <p>@kakaoporoshok</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-column__languages">
+                    <h2>Language skills</h2>
+                    <ul>
+                        <li>
+                            <h3>English</h3>
+                        </li>
+                        <li>
+                            <p>Intermediate</p>
+                        </li>
+                        <li>
+                            <h3>Belarussian</h3>
+                        </li>
+                        <li>
+                            <p>Native</p>
+                        </li>
+                        <li>
+                            <h3>Russian</h3>
+                        </li>
+                        <li>
+                            <p>Native</p>
+                        </li>
+                        <li>
+                            <h3>Polish</h3>
+                        </li>
+                        <li>
+                            <p>Basic</p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/js/" target="blank"><img src="./assets/icons/rsschool.svg" alt="Rsschhol logo"
+                    width="73" height="26"></a>
+            <p>© 2021</p>
+            <a href="https://github.com/voditelkata" target="blank"><img src="./assets/icons/github.svg"
+                    alt="Github icon" width="26" height="26"></a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
